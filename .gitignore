@@ -1,0 +1,19 @@
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+
+# 데이터셋과 결과물 - 용량 커서 GitHub에 올리지 않음
+data/
+!data/calorie_db.json
+datasets/
+runs/
+
+# 모델 가중치
+*.pt
+
+# 가상환경, IDE 설정
+.env
+.venv
+.vscode/
+.idea/
+test_images/
